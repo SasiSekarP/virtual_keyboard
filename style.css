@@ -1,0 +1,117 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* styling started */
+
+.contantContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contantContainer{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.display{
+    height: 250px;
+}
+
+.DisplayArea{
+    flex: 1;
+    display: flex;
+}
+
+.displayScreen{
+    border: 1px solid black;
+    margin: 1rem;
+    box-shadow: black 1rem 1rem 5rem;
+    padding: 1rem;
+    overflow-y: scroll;
+    flex: 1;
+    margin: 1rem;
+}
+
+.KeyBoardArea{
+    background-color: rgb(79, 78, 78);
+    max-height: 230px;
+    margin: auto;
+    border-radius: 5px;
+    padding:1rem;
+    margin: auto;
+    max-width: 550px;
+}
+
+.row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.splBtn,.letterBtn,.spaceBtn,.spaceBtn1,.splBtn1{
+    margin: 5px;
+    height: 40px;
+    text-align: center;
+    background-color: gray;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.splBtn:hover,.letterBtn:hover,.spaceBtn:hover,.spaceBtn1:hover,.splBtn1:hover{
+    box-shadow: white 0px 0px 1rem;
+    background-color: rgb(79, 78, 78);
+}
+
+.letterBtn{
+    width: 30px;
+}
+
+.splBtn{
+    width: 4rem;
+}
+
+.spaceBtn{
+    width: 10rem;
+}
+
+.spaceBtn1{
+    width: 7rem;
+}
+
+@media screen and (max-width:425px) {
+    .splBtn,.letterBtn,.spaceBtn,.spaceBtn1,.splBtn1{
+        margin: 3px;
+        height: 30px;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .letterBtn{
+        width: 20px;
+    }
+
+    .splBtn{
+        width: 3rem;
+    }
+
+    .spaceBtn1{
+        width: 5rem;
+    }
+
+    .spaceBtn{
+        width: 7rem;
+    }
+}
