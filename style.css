@@ -24,7 +24,9 @@ a{
 }
 
 .display{
-    height: 250px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
 }
 
 .DisplayArea{
@@ -47,9 +49,14 @@ a{
     max-height: 230px;
     margin: auto;
     border-radius: 5px;
-    padding:1rem;
-    margin: auto;
+    padding:8px;
+    margin: 0px 1rem;
     max-width: 550px;
+    margin-bottom: 1rem;
+}
+
+.keyBoardContainer{
+    height: auto;
 }
 
 .row{
